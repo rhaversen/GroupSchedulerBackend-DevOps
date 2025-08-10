@@ -28,7 +28,7 @@ spec:
                         requests:
                             cpu: "250m"
                             memory: "200M"
-                    image: "rhaversen/group-scheduler-backend:${GITHUB_SHA}"
+                    image: "rhaversen/group-scheduler-backend:9bbfb49bb1d85fec9e8828e6801fe1a709e31586"
                     imagePullPolicy: Always
                     livenessProbe:
                         httpGet:
